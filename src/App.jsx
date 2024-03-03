@@ -60,7 +60,7 @@ function App() {
     </html>
   `;
       setResult(srcCode);
-    }, 250); // Adjust the delay time (in milliseconds) as needed
+    }, 500); // Adjust the delay time (in milliseconds) as needed
 
     return () => clearTimeout(delay); // Clear the timeout on component unmount or code change
   }, [html_edit,css_edit,js_edit]);
